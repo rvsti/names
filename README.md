@@ -19,5 +19,5 @@ id select_type table partitions type possible_keys key key_len ref rows filtered
 1 SIMPLE names NULL index NULL first_name 154 NULL 881111 1.23 Using where; Using index
 
 Procedure:
-User needs to copy the files to the folder he wants to set up project and change in test.php and populateData.php for username and passwords.
+User needs to copy the files to the folder he wants to set up project and change in test.php and loadData.php for username and passwords.
 Then call the index file (index.php) for the result.
