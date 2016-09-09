@@ -11,7 +11,7 @@ CREATE TABLE `names` (
  UNIQUE KEY `first_name` (`first_name`,`last_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
 
-Here uniqe on both columns as pairs is used to remove duplicates and make searching faster by use of indexes
+Here unique on both columns as pairs is used to remove duplicates and make searching faster by use of indexes
 
 EXPLAIN (SELECT * FROM `names` WHERE `first_name` like '%r%' and `last_name` like '%v%')
 result
